@@ -1,5 +1,4 @@
 #!/bin/bash
-echo "Taking notes from the clipboard.."
 path=~/myNotes/
 mkdir $path
 serial="$(find $path -type f | wc -l)"
